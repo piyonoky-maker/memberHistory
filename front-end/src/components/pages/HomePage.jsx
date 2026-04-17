@@ -1,15 +1,15 @@
-import BB from '../pageDetail/BB';
+import HomePageDetail from '../pageDetail/HomePageDetail';
 import Header from '../include/Header';
 import Footer from '../include/Footer';
 
-const B = () => {
+const HomePage = () => {
   return (
     <>
       <Header />
-      <BB />
+      <HomePageDetail />
       <Footer />
     </>
   );
 };
 
-export default B;
+export default HomePage;

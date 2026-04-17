@@ -1,15 +1,15 @@
-import AA from '../pageDetail/AA';
+import ReportTaskDetail from '../pageDetail/ReportTaskDetail';
 import Header from '../include/Header';
 import Footer from '../include/Footer';
 
-const A = () => {
+const ReportTask = () => {
   return (
     <>
       <Header />
-      <AA />
+      <ReportTaskDetail />
       <Footer />
     </>
   );
 };
 
-export default A;
+export default ReportTask;

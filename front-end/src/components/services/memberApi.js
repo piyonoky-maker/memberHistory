@@ -50,5 +50,5 @@ export const memberListDB = async () => {
         method: 'get',
         url: import.meta.env.VITE_SPRING_IP + 'member/memberList'
     })
-    return res
+    return res.data
 }
